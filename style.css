@@ -1,0 +1,27 @@
+/* style.css - Styles for the main HTML page */
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light grey background for the page */
+    line-height: 1.5;
+}
+
+h1 {
+    color: #333;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+
+/* Styles for the component container itself, if needed */
+#app {
+    border: 1px dashed #999; /* Add a dashed border to see the component's container */
+    padding: 15px;
+    background-color: #fff; /* White background for the component area */
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+}
